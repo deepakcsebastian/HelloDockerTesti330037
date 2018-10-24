@@ -1,0 +1,7 @@
+---
+applications:
+- name: HelloDock
+  memory: 192M
+  instances: 1
+  random-route: false
+  host: DockerTesti330037
