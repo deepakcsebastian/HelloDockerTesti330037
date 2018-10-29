@@ -4,7 +4,6 @@ LABEL Simen Huuse - itelligence / NTT Data // Thanks to Alex Bordei - Bigstep In
 
 run apk add --update darkhttpd && rm -rf /var/cache/apk/*
 
-ADD manifest.yml /var/www/localhost/htdocs/manifest.yml
 ADD index.html /var/www/localhost/htdocs/index.html
 ADD entrypoint.sh /entrypoint.sh
 ADD sapcloudplatform.png /var/www/localhost/htdocs/sapcloudplatform.png
